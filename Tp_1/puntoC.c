@@ -1,8 +1,6 @@
 #include <stdio.h>
-#include <ctype.h>
-#include <string.h>
 
-//c) Convertir una cadena de caracteres a la misma cadena con todos sus caracteres en
+// c) Convertir una cadena de caracteres a la misma cadena con todos sus caracteres en
 //mayuscula.
 
 void toMayus(char* cadena)

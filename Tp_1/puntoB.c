@@ -1,14 +1,16 @@
 #include <stdio.h>
 
-int deStringAInt(char* string){
+// b) Convertir una cadena de dígitos en su equivalente numérico.
+
+int deStringAInt(char* cadena){
    int num = 0;
-   while(*string){
-      int a = *string;
+   while(*cadena){
+      int a = *cadena;
    if(a < 48 && a > 57){
       printf("valor no permitido");
       return 0;
    }
-   string++;
+   cadena++;
    num = num*10 + (a - 48);
    }
    return num;

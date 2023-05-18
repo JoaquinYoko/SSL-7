@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-int length(char* string){
+// a) Calcular y retornar la longitud de una cadena dada.
+
+int length(char* cadena){
     int longitud = 0;
-    while(*string){
+    while(*cadena){
         longitud++;
-        string++;
+        cadena++;
     }
     return longitud;
 } 

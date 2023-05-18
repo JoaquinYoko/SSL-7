@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+// d) Eliminar de una cadena dada todas las ocurrencias de un carácter dado.
 void eliminar(char* cadena, char caracter)
 {
 int i, j;
