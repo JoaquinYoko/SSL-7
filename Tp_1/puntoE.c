@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+// e) Concatenar al final de la primera cadena dada una segunda cadena también dada.
 void concatenar(char primero[], char segundo[], char destino[])
 {
 	int i=0, j=0;

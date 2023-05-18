@@ -5,7 +5,7 @@
 #include "puntoD.c"
 #include "puntoE.c"
 #include "puntoF.c"
-
+// 2) Construir un programa para el testeo de las funciones del punto 1.
 int main(int argc, char*argv[]){
    
 //Test Punto A
@@ -14,8 +14,8 @@ int main(int argc, char*argv[]){
     
     printf("String dado: '%s' \n",stringA);
     int valor = length(stringA);
- 
     printf("El tamanio del string es: %d \n\n", valor,stringA);
+
 //Test Punto B 
     printf("Punto B: \n");
     char stringB[] ="123456";
@@ -34,8 +34,8 @@ int main(int argc, char*argv[]){
 
 //Test Punto D
     printf("Punto D: \n");
-    char stringD[]="Electronica";
-    char valorQuitado = 'E';
+    char stringD[]="electronica";
+    char valorQuitado = 'e';
 
     printf("String dado: '%s' ; caracter a eliminar: '%c' \n",stringD,valorQuitado);
     eliminar(stringD,valorQuitado);
@@ -51,12 +51,11 @@ int main(int argc, char*argv[]){
     concatenar(stringE1,stringE2,stringConcatenado);
     printf("String concatenado: '%s' \n\n",stringConcatenado);
     
-
 //Test Punto F
     printf("Punto F: \n");
     char stringF[]="012345789";
     
-    printf("String dado: '%s' (le falta el '6') \n",stringF);
+    printf("String dado: '%s' \n",stringF);
     agregarCaracter(stringF, '6', 6);
     printf("Agregar el caracter '6' en la posicion 6 del string anterior: %s",stringF);
     
